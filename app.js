@@ -711,7 +711,7 @@ const flowCarreras = addKeyword(['carreras', 'car', 'Ofertas', 'ofertas', 'acade
 
 const flowCalAca = addKeyword(['Calendario', 'cal']).addAnswer(
     [
-        '📆 *Calensario Académico 2024*',
+        '📆 *Calendario Académico 2024*',
         '*PREINSCRIPCIÓN POR CARRERA INGRESO 2024*',
         'Primera etapa: Desde 01/10/23 al 31/12/2023 (Por Internet)',
         'Segunda etapa: Desde el 05/02/24 al 29/02/2024 (Por Internet)',
@@ -837,7 +837,7 @@ const flowTel = addKeyword(['tel', 'telefono', 'Teléfonos']).addAnswer(
             '\n📌 *Menu* Para volver al Menu principal.',
         ])
 
-const flowPrincipal = addKeyword(['Hola', 'buenas', 'holis', 'holu', 'día', 'tarde', 'noche', 'menu', 'Menú'])
+const flowPrincipal = addKeyword(['Hola', 'buenas', 'holis', 'día', 'tarde', 'noche', 'menu', 'Menú'])
     .addAnswer('🙌 Hola bienvenido a este *Chatbot* de la Facultad de Humanidades')
     .addAnswer(
         [
