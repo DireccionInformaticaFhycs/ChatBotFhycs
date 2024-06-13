@@ -194,7 +194,6 @@ const flowLicLetras = addKeyword(['11']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowProfEnLetras = addKeyword(['10']).addAnswer([
     '📄 *Profesorado en Letras*',
     'Sede: San Salvador de Jujuy',
@@ -243,7 +242,6 @@ const flowProfEnLetras = addKeyword(['10']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowProfHistoria = addKeyword(['09']).addAnswer([
     '📄 *Profesorado en Historia*',
     'Sede: San Salvador de Jujuy',
@@ -290,7 +288,6 @@ const flowProfHistoria = addKeyword(['09']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowLicEnHistoria = addKeyword(['08']).addAnswer([
     '📄 *Licenciatura en Historia*',
     'Sede: San Salvador de Jujuy',
@@ -336,7 +333,6 @@ const flowLicEnHistoria = addKeyword(['08']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowProfYLicFilosofia = addKeyword(['07']).addAnswer([
     '📄 *Profesorado y Licenciatura en Filosofía*',
     'Sede: San Salvador de Jujuy',
@@ -384,7 +380,6 @@ const flowProfYLicFilosofia = addKeyword(['07']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowProfEducSalud = addKeyword(['06']).addAnswer([
     '📄 *Profesorado en Educación para la Salud*',
     'Sede: San Salvador de Jujuy y San Pedro',
@@ -432,7 +427,6 @@ const flowProfEducSalud = addKeyword(['06']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowLicEducSalud = addKeyword(['05']).addAnswer([
     '📄 *Licenciatura en Educación para la Salud*',
     'Sede: San Salvador de Jujuy y San Pedro',
@@ -473,7 +467,6 @@ const flowLicEducSalud = addKeyword(['05']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowLicComSocial = addKeyword(['04']).addAnswer([
     '📄 *Profesorado y Licenciatura en Ciencias de la Educación*',
     'Sede: San Salvador de Jujuy',
@@ -537,7 +530,6 @@ const flowLicComSocial = addKeyword(['04']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowProfCienciaEduacion = addKeyword(['03']).addAnswer([
     '📄 *Profesorado y Licenciatura en Ciencias de la Educación*',
     'Sede: San Salvador de Jujuy y San Pedro',
@@ -590,7 +582,6 @@ const flowProfCienciaEduacion = addKeyword(['03']).addAnswer([
     '\n*Menu* Para volver al Menu principal.',
     '\n*Carreras* Para mostrar todas las carreras.',
 ])
-
 const flowAntrop = addKeyword(['02']).addAnswer([
     '📄 *Licenciatura en Antropología*',
     'Sede: San Salvador de Jujuy',
@@ -648,7 +639,6 @@ const flowAntrop = addKeyword(['02']).addAnswer([
     '\n*Carreras* Para mostrar todas las carreras.',
     '\n*Menu* Para volver al Menu principal.',
 ])
-
 const flowComunicacionDigital = addKeyword(['01', 'digital']).addAnswer([
     '📄 *Tecnicatura en Comunicación Digital Convergente*',
     'Sede: San Salvador de Jujuy',
@@ -686,7 +676,6 @@ const flowComunicacionDigital = addKeyword(['01', 'digital']).addAnswer([
     '\n*ofertas* Para mostrar todas las carreras.',
     '\n*Menu* Para volver al Menu principal.',
 ])
-
 const flowCarreras = addKeyword(['carreras', 'car', 'Ofertas', 'ofertas', 'academica']).addAnswer(
     [
         '📝Todas las *Carreras* de la Facultad de Humanidades',
@@ -788,7 +777,7 @@ const flowCalAca = addKeyword(['Calendario', 'cal']).addAnswer(
         '*BORRADO:* 28/02 al 13/03/2025',
         
         '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/calendario_academico.html',
-        '\n*Menu* Para volver al Menu principal.',
+        '\n Escribe *Menu* Para volver al Menu principal.',
     ])
 
 const flowTel = addKeyword(['tel', 'telefono', 'Teléfonos']).addAnswer(
@@ -814,8 +803,24 @@ const flowTel = addKeyword(['tel', 'telefono', 'Teléfonos']).addAnswer(
         '📲 Consejo Académico 3884221524',
         '\n📌 *Menu* Para volver al Menu principal.',
     ])
+const flowCorreos = addKeyword(['Correos', 'corre']).addAnswer(
+        [
+            '📧 *Correos útiles* \n',
+            'Dirección Informática',
+            '📧 direccioninformatica@fhycs.unju.edu.ar \n',
+            'Despacho (Notas)',
+            '📧 dgd@fhycs.unju.edu.ar \n',
+            'Secretaría de Consejo Académico',
+            '📧 caf@fhycs.unju.edu.ar \n',
+            'Dirección Administrativa de Secretaría Académica',
+            '📧 seca@fhycs.unju.edu.ar \n',
+            'Dirección Biblioteca',
+            '📧 biblio@fhycs.unju.edu.ar \n',
+            
+            '\n📌 Escribe *Menu* Para volver al Menu principal.',
+        ])
 
-    const flowPreguntasFrec = addKeyword(['preguntas', 'frecuentes', 'Preguntas']).addAnswer(
+const flowPreguntasFrec = addKeyword(['preguntas', 'frecuentes', 'Preguntas']).addAnswer(
         [
             '🤔 Preguntas Frecuentes',
             '❓ *¿SE RINDE EXAMEN DE INGRESO?* ',
@@ -836,6 +841,27 @@ const flowTel = addKeyword(['tel', 'telefono', 'Teléfonos']).addAnswer(
             
             '\n📌 *Menu* Para volver al Menu principal.',
         ])
+const flowTramites = addKeyword(['tramites', 'tramite', 'tram']).addAnswer(
+        [
+            '🖥️ Tramites en SIU Guaraní\n',
+
+            '🖊️ *Preinscripción a la carrera de la Facultad* ',
+            'Ingresa en: https://www.youtube.com/watch?v=-FoE4vsifb8 \n',
+
+            '🖊️ *Inscripción a materias* ',
+            'Ingresa en: https://www.youtube.com/watch?v=nzoA4M5saak \n',
+
+            '🖊️ *Inscripción a Exámen* ',
+            'Ingresa en: https://www.youtube.com/watch?v=LFJg59Ook8E \n',
+
+            '🖊️ *Reinscripción anual de la carrera* ',
+            'Ingresa en: https://www.youtube.com/watch?v=iGepuPO1Svg \n',
+
+            '🖊️ *Autogestión de Constancias y Certificados* ',
+            'Ingresa en: https://www.youtube.com/watch?v=y7182Ettzng \n',
+            
+            '\n📌 *Menu* Para volver al Menu principal.',
+        ])
 
 const flowPrincipal = addKeyword(['Hola', 'buenas', 'holis', 'día', 'tarde', 'noche', 'menu', 'Menú'])
     .addAnswer('🙌 Hola bienvenido a este *Chatbot* de la Facultad de Humanidades')
@@ -843,13 +869,16 @@ const flowPrincipal = addKeyword(['Hola', 'buenas', 'holis', 'día', 'tarde', 'n
         [
             '📌 Este es nuestro Menu de opciones que tenemos para mostrarte',
             '📝 Escribe *Ofertas* Académica para ver la documentación.',
-            '☎ Escribe *Teléfonos*  para ver los teléfonos útiles.',
+            '☎ Escribe *Teléfonos* para ver los teléfonos útiles.',
+            '📧 Escribe *Correo* para ver los correos útiles.',
             '📆 Escribe *Calendario*  para ver el Calensario Académico.',
+            '🖥️ Escribe *Tramites* para conocer las distitnas gestiones dentro del SIU.',
             '❓ Escribe *Preguntas*  Frecuentes.',
+            
         ],
         null,
         null,
-        [flowTel, flowCalAca, flowCarreras, flowPreguntasFrec]
+        [flowTel, flowCalAca, flowCarreras, flowPreguntasFrec, flowTramites, flowCorreos]
     )
 
 const main = async () => {
